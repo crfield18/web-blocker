@@ -1,0 +1,12 @@
+{
+    "websites" :
+        [
+            "\n",
+            "www.facebook.com",
+            "facebook.com",
+            "www.twitter.com",
+            "twitter.com",
+            "*twitter*",
+            "www.youtube.com"
+        ]
+}
