@@ -9,7 +9,7 @@ blocked_sites = BLOCKED_SITES['websites']
 redirect = '127.0.0.1'
 
 def block_websites():
-    print('web-blocker.py running!')
+    print('\nweb-blocker.py running!')
     with open('/etc/hosts', 'r+') as HOSTFILE:
         hosts_content = HOSTFILE.read()
         for site in blocked_sites:
